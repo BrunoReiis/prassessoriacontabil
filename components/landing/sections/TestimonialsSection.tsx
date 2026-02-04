@@ -15,25 +15,27 @@ export function TestimonialsSection() {
   return (
     <Section id="depoimentos" tone="soft">
       <div className="grid gap-10 lg:grid-cols-2">
-        <div>
-          <Chip
-            className="w-fit"
-            size="sm"
-            variant="flat"
-            style={{ backgroundColor: BRAND_SOFT, color: BRAND }}
-          >
-            Histórias reais, impacto direto
-          </Chip>
-          <h2 className={clsx(title({ size: "md" }), "mt-4")}>
+        <div className="text-center lg:text-left">
+          <div className="mb-4">
+            <Chip
+              className="mx-auto lg:mx-0"
+              size="sm"
+              variant="flat"
+              style={{ backgroundColor: BRAND_SOFT, color: BRAND }}
+            >
+              Histórias reais, impacto direto
+            </Chip>
+          </div>
+          <h2 className={clsx(title({ size: "md" }))}>
             Mais tranquilidade.
             <span className="block">Mais clareza.</span>
             <span className="block">Mais crescimento.</span>
           </h2>
-          <p className="mt-3 text-default-600 max-w-2xl">
+          <p className="mt-3 text-default-600 max-w-2xl mx-auto lg:mx-0">
             A ideia é simples: uma contabilidade que tira o peso do seu dia a dia
             e deixa você focar no que faz a empresa avançar.
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center lg:justify-start">
             <Button
               as={Link}
               href="#contato"

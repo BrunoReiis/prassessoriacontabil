@@ -15,23 +15,23 @@ import { BRAND, BRAND_SOFT } from "@/components/landing/theme";
 export function HeroSection() {
   return (
     <Section id="inicio" tone="soft">
-      <div className="grid items-center gap-10 lg:grid-cols-2">
-        <div>
+      <div className="flex flex-col gap-10 lg:grid lg:grid-cols-2 lg:items-center">
+        <div className="text-center lg:text-left">
           <Chip
-            className="w-fit"
+            className="w-fit mx-auto lg:mx-0"
             variant="flat"
             style={{ backgroundColor: BRAND_SOFT, color: BRAND }}
           >
             Contabilidade moderna — foco no seu crescimento
           </Chip>
           <h1 className={clsx(title({ size: "lg" }), "mt-4")}>Prassessoria</h1>
-          <p className={clsx(subtitle(), "mt-4 max-w-2xl")}>
+          <p className={clsx(subtitle(), "mt-4 max-w-2xl mx-auto lg:mx-0")}>
             Uma contabilidade feita para dar clareza, previsibilidade e
             tranquilidade. Rotinas em dia, relatórios objetivos e suporte de
             verdade.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
             <Button
               as={Link}
               href="#contato"
