@@ -6,12 +6,12 @@ import { Card, CardBody } from "@heroui/card";
 
 export function PersonCard({
   name,
-  role,
+  jobTitle,
   quote,
   src,
 }: {
   name: string;
-  role: string;
+  jobTitle: string;
   quote: string;
   src: string;
 }) {
@@ -24,7 +24,7 @@ export function PersonCard({
           </div>
           <div className="min-w-0">
             <p className="font-semibold tracking-tight truncate">{name}</p>
-            <p className="text-sm text-default-500 truncate">{role}</p>
+            <p className="text-sm text-default-500 truncate">{jobTitle}</p>
           </div>
         </div>
         <p className="text-default-600">“{quote}”</p>

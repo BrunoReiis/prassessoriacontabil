@@ -49,20 +49,20 @@ export function TestimonialsSection() {
         <div className="grid gap-4 sm:grid-cols-2">
           <PersonCard
             name="Ana Martins"
-            role="Serviços • Comércio"
+            jobTitle="Serviços • Comércio"
             src="/people/ana.svg"
             quote="Passei a ter previsibilidade de impostos e uma rotina mensal que realmente fecha."
           />
           <PersonCard
             name="Carlos Lima"
-            role="Tecnologia • Prestação de serviços"
+            jobTitle="Tecnologia • Prestação de serviços"
             src="/people/carlos.svg"
             quote="Relatórios objetivos e suporte rápido. Agora eu decido com base em números."
           />
           <div className="sm:col-span-2">
             <PersonCard
               name="Mariana Souza"
-              role="Saúde • Clínica"
+              jobTitle="Saúde • Clínica"
               src="/people/mariana.svg"
               quote="A sensação é de controle: obrigações em dia e uma visão clara do mês."
             />
