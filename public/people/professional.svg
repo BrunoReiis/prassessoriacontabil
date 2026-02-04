@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Ilustração grande de uma pessoa profissional">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8F5E9"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/>
+      <stop offset="1" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2E7D32" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="64" fill="url(#bg)"/>
+
+  <!-- UI panels -->
+  <g fill="none" stroke="#2E7D32" stroke-opacity="0.18" stroke-width="6">
+    <rect x="90" y="120" width="520" height="140" rx="28"/>
+    <rect x="90" y="290" width="520" height="180" rx="28"/>
+    <rect x="90" y="500" width="520" height="260" rx="28"/>
+  </g>
+  <g fill="url(#panel)">
+    <rect x="120" y="152" width="280" height="18" rx="9"/>
+    <rect x="120" y="184" width="210" height="14" rx="7"/>
+    <rect x="120" y="332" width="340" height="18" rx="9"/>
+    <rect x="120" y="364" width="280" height="14" rx="7"/>
+    <rect x="120" y="396" width="320" height="14" rx="7"/>
+    <rect x="120" y="540" width="360" height="18" rx="9"/>
+    <rect x="120" y="574" width="300" height="14" rx="7"/>
+    <rect x="120" y="606" width="260" height="14" rx="7"/>
+  </g>
+
+  <!-- person (right) -->
+  <circle cx="860" cy="310" r="132" fill="#DDB38A"/>
+  <path d="M732 314c10-102 62-178 128-178s118 76 128 178c-36-48-82-76-128-76s-92 28-128 76z" fill="#1F2937"/>
+  <circle cx="820" cy="322" r="11" fill="#111827"/>
+  <circle cx="902" cy="322" r="11" fill="#111827"/>
+  <path d="M828 390c24 20 58 20 82 0" fill="none" stroke="#111827" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M640 900c34-180 138-290 220-290s186 110 220 290" fill="url(#shirt)"/>
+
+  <!-- caption card (bottom-right) -->
+  <rect x="650" y="680" width="460" height="150" rx="28" fill="#FFFFFF" fill-opacity="0.90" stroke="#E5E7EB"/>
+  <rect x="700" y="720" width="280" height="20" rx="10" fill="#111827" opacity="0.14"/>
+  <rect x="700" y="752" width="240" height="16" rx="8" fill="#111827" opacity="0.10"/>
+  <rect x="700" y="780" width="200" height="14" rx="7" fill="#111827" opacity="0.08"/>
+</svg>
